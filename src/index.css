@@ -1,13 +1,136 @@
+* {
+  box-sizing: border-box;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #23252C;
+  font-family: 'Inter';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  background: #1a1b21;
+  max-width: 317px;
+  margin: 44px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.Maincontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.container h3 {
+  color: #f3bf99;
+  text-align: center;
+  font-weight: 400;
+  font-size: 12.8px;
+  margin: 0;
+}
+.container h4 {
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 10.24px;
+}
+
+.container .btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container .btns .email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 9px 13px 9px 11px;
+  width: 115px;
+  height: 34px;
+  border: 1px solid #d1d5d8;
+  border-radius: 6px;
+  margin-right:17px ;
+}
+.container .btns .linkedin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #5093e2;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  padding: 9px 13px 9px 11px;
+  width: 115px;
+  height: 34px;
+  border: 1px solid #5093e2;
+  border-radius: 6px;
+}
+
+.container .btns ion-icon {
+  height: 15px;
+  width: 15px;
+  margin-right: 4px;
+}
+
+.container .abAndInt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 247px;
+  margin: 24px 36px;
+}
+
+.container .abAndInt h1 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  text-align: left;
+}
+
+.container .abAndInt p {
+  color: #fff;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 5px auto;
+}
+
+.footer {
+  background: #161619;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
+}
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #161619;
+  background: #918e9b;
+  border-radius: 3px;
+  width: 25px;
+  height: 25px;
+}
+.footer a ion-icon {
+  width: 20px;
+  height: 20px;
 }
