@@ -6,10 +6,10 @@ export default function Main() {
       <img src="https://github.com/AbdellahSlimani.png" alt="abdellah slimani in black and white and a solid yellow background" width={317}/>
       <h1>Abdellah Slimani</h1>
       <h3>Frontend Developer</h3>
-      <h4 href="www.github.com/abdellahslimani">AbdellahSlimani.com</h4>
+      <h4 href="https://github.com/abdellahslimani" target="_blank">AbdellahSlimani.com</h4>
       <div className="btns">
-        <button href="www.gmail.com" className="email"><ion-icon name="mail-outline"></ion-icon>Email</button>
-        <button href="www.linkedin.com" className="linkedin"><ion-icon name="logo-linkedin"></ion-icon>LinkedIn</button>
+        <a href="https://gmail.com" target="_blank" ><button className="email"><ion-icon name="mail-outline"></ion-icon>Email</button></a>
+        <a href="https://linkedin.com" target="_blank" ><button className="linkedin"><ion-icon name="logo-linkedin"></ion-icon>LinkedIn</button></a>
       </div>
       <div className="abAndInt">
         <div className="about">
